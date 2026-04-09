@@ -9,22 +9,6 @@
    </INCLUDES>
    <FUNCTIONS>
     <item>
-     <FUNCNAME>Z_GET_CARRIERS</FUNCNAME>
-     <SHORT_TEXT>Get carriers</SHORT_TEXT>
-     <TABLES>
-      <RSTBL>
-       <PARAMETER>CARRIERS</PARAMETER>
-       <TYP>SCARR</TYP>
-      </RSTBL>
-     </TABLES>
-     <DOCUMENTATION>
-      <RSFDO>
-       <PARAMETER>CARRIERS</PARAMETER>
-       <KIND>P</KIND>
-      </RSFDO>
-     </DOCUMENTATION>
-    </item>
-    <item>
      <FUNCNAME>Z_GET_BOOKINGS</FUNCNAME>
      <SHORT_TEXT>Get bookings</SHORT_TEXT>
      <IMPORT>
@@ -55,6 +39,22 @@
       </RSFDO>
       <RSFDO>
        <PARAMETER>BOOKINGS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_GET_CARRIERS</FUNCNAME>
+     <SHORT_TEXT>Get carriers</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>CARRIERS</PARAMETER>
+       <TYP>SCARR</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CARRIERS</PARAMETER>
        <KIND>P</KIND>
       </RSFDO>
      </DOCUMENTATION>
