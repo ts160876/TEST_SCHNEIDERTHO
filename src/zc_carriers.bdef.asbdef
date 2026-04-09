@@ -1,0 +1,6 @@
+projection;
+
+define behavior for ZC_CARRIERS alias Carriers
+{
+  // Projection: no transactional operations exposed
+}

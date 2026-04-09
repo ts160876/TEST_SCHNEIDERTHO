@@ -1,0 +1,45 @@
+@Metadata.layer: #CUSTOMER
+
+@UI.headerInfo: {
+  typeName:        'Carrier',
+  typeNamePlural:  'Carriers',
+  title:       { type: #STANDARD, value: 'CarrierId'   },
+  description: { type: #STANDARD, value: 'CarrierName' }
+}
+
+annotate view ZC_CARRIERS with
+{
+  @UI.facet: [
+    {
+      id:       'idIdentification',
+      type:     #IDENTIFICATION_REFERENCE,
+      label:    'General Information',
+      position: 10
+    }
+  ]
+
+  @UI: {
+    lineItem:       [{ position: 10, label: 'Carrier ID', importance: #HIGH }],
+    identification: [{ position: 10, label: 'Carrier ID' }],
+    selectionField: [{ position: 10 }]
+  }
+  CarrierId;
+
+  @UI: {
+    lineItem:       [{ position: 20, label: 'Name',     importance: #HIGH   }],
+    identification: [{ position: 20, label: 'Name' }]
+  }
+  CarrierName;
+
+  @UI: {
+    lineItem:       [{ position: 30, label: 'Currency', importance: #MEDIUM }],
+    identification: [{ position: 30, label: 'Currency' }]
+  }
+  CurrencyCode;
+
+  @UI: {
+    lineItem:       [{ position: 40, label: 'URL',      importance: #LOW    }],
+    identification: [{ position: 40, label: 'URL' }]
+  }
+  Url;
+}

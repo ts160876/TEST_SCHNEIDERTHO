@@ -1,0 +1,4 @@
+define behavior for ZI_CARRIERS alias Carriers
+{
+  // Read-only entity: no transactional operations (create/update/delete) defined
+}

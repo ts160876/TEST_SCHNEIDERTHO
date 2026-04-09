@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRVD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DATA>
+    <SRVDNAME>ZSD_CARRIERS</SRVDNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DDTEXT>Service Definition for Carriers</DDTEXT>
+    <EXPOSURE>
+     <item>
+      <ENTITYSETNAME>Carriers</ENTITYSETNAME>
+      <SRVDOBJECT>ZC_CARRIERS</SRVDOBJECT>
+      <SRVDOVERSION>0000</SRVDOVERSION>
+     </item>
+    </EXPOSURE>
+   </DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

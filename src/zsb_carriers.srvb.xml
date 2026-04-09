@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SRVB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DATA>
+    <SRVBNAME>ZSB_CARRIERS</SRVBNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DDTEXT>Service Binding for Carriers (OData V4 UI)</DDTEXT>
+    <BINDINGTYPE>ODATA V4 UI</BINDINGTYPE>
+    <SRVDNAME>ZSD_CARRIERS</SRVDNAME>
+    <SRVVERSION>0001</SRVVERSION>
+   </DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
