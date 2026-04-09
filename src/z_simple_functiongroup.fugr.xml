@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Simple function group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_SIMPLE_FUNCTIONGROUPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_SIMPLE_FUNCTIONGROUP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_GET_BOOKINGS</FUNCNAME>
+     <SHORT_TEXT>Get bookings</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_CARRID</PARAMETER>
+       <TYP>S_CARR_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_CONNID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>S_CONN_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>BOOKINGS</PARAMETER>
+       <TYP>SBOOK</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_CARRID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_CONNID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BOOKINGS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_GET_FLIGHTS</FUNCNAME>
+     <SHORT_TEXT>Get flights</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_CARRID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>S_CARR_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>FLIGHTS</PARAMETER>
+       <TYP>SFLIGHT</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_CARRID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLIGHTS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -14,6 +14,6 @@ ENDCLASS.
 
 CLASS zcl_simple_class IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello, world!' ).
+    out->write( 'Hello, world! Welcome to ABAP!' ).
   ENDMETHOD.
 ENDCLASS.
